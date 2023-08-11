@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">IOT Based Fire Detection System</string>
+    <string name="flame">Flame</string>
+    <string name="Temperature">Temperature</string>
+    <string name="Humidity">Humidity</string>
+    <string name="Codetector">CO detector</string>
+    <string name="Smoke">Smoke</string>
+    <string name="Sensorstatus">Sensor Status</string>
+
+</resources>

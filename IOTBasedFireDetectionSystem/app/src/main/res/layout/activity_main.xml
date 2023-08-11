@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgrounda">
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#E3AA"
+        android:gravity="center"
+        android:text="Sensor Status"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        app:fontFamily="sans-serif-black"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView9">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:layout_weight="-1"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/flame"
+                android:layout_width="320dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:paddingLeft="20dp"
+                android:paddingTop="15dp"
+                android:text="Flame Sensor"
+                android:textColor="?android:textColorPrimary"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/flamev"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:hint="@string/flame"
+                android:paddingLeft="20dp"
+                android:paddingTop="15dp"
+                android:textSize="20sp"
+
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:layout_weight="-1"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/Temperature"
+                android:layout_width="320dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:paddingLeft="20dp"
+                android:paddingTop="15dp"
+                android:text="Temperature"
+                android:textColor="?android:textColorPrimary"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/Temperaturev"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:hint="@string/Temperature"
+                android:paddingLeft="20dp"
+                android:paddingTop="15dp"
+                android:textSize="20sp"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/Humidity"
+                android:layout_width="320dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:paddingLeft="20dp"
+                android:paddingTop="15dp"
+                android:text="Humidity"
+                android:textColor="?android:textColorPrimary"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/Humidityv"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:hint="@string/Humidity"
+                android:paddingLeft="20dp"
+                android:paddingTop="15dp"
+                android:textSize="20sp"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/Codetector"
+                android:layout_width="320dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:paddingLeft="20dp"
+                android:paddingTop="15dp"
+                android:text="CO Detector"
+                android:textColor="?android:textColorPrimary"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/Codetectorv"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:hint="@string/Codetector"
+                android:paddingLeft="20dp"
+                android:paddingTop="15dp"
+                android:textSize="16sp"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/Smoke"
+                android:layout_width="320dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:paddingLeft="20dp"
+                android:paddingTop="15dp"
+                android:text="Smoke Detector"
+                android:textColor="?android:textColorPrimary"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/Smokev"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:hint="@string/Smoke"
+                android:paddingLeft="20dp"
+                android:paddingTop="15dp"
+                android:textSize="16sp" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/Created"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#E3AA"
+            android:gravity="center"
+            android:text=" Created Time"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            app:fontFamily="sans-serif-black"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"/>
+
+        <TextView
+            android:id="@+id/thingresponse"
+            android:layout_width="match_parent"
+            android:layout_height="219dp"
+            android:text="Data"
+            android:gravity="center"
+            android:textSize="20sp"
+            />
+
+        <Button
+            android:id="@+id/refreshbutton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="-1"
+            android:visibility="invisible"
+            android:text="Refresh Data" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
